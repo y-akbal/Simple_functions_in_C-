@@ -22,7 +22,7 @@ void sort(int r[], const int i){
    }
 }
  
-int sorted(int a[], int length){
+int sorted(const int a[], const int length){
     for(int i = 0; i < length; i++){
         if(a[i+1] < a[i]){
             printf("Nope Buddy\n");
