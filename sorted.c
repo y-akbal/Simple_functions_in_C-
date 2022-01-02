@@ -13,3 +13,7 @@ int sorted(int a[], int length){
    printf("Yes this dude is sorted\n");
    return 1;
    }
+
+int main(){
+  return 1; 
+}
